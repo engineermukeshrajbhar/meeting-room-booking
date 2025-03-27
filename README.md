@@ -13,7 +13,7 @@ A Laravel + VueJS application for booking meeting rooms with subscription plans.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/meeting-room-booking.git
+   git clone https://github.com/engineermukeshrajbhar/meeting-room-booking.git
    cd meeting-room-booking
 Install PHP dependencies:
 
