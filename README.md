@@ -89,3 +89,28 @@ Copy
 5. Push all code including migrations and seeders
 
 This solution provides a complete foundation for your meeting room booking system with all the requested features implemented. The system includes authentication with login attempt limitation, meeting room management, booking functionality with availability checks, subscription plans, and booking history.
+
+Register
+
+<img width="1287" alt="Screenshot 2025-03-27 at 10 11 34 AM" src="https://github.com/user-attachments/assets/d3f68a76-eb29-433c-b08a-068aeca5ac62" />
+
+Login
+
+<img width="1366" alt="Screenshot 2025-03-27 at 10 11 24 AM" src="https://github.com/user-attachments/assets/7adbf857-8620-4029-a995-5a349323fd93" />
+
+Dashboard
+
+<img width="1450" alt="Screenshot 2025-03-27 at 9 36 14 AM" src="https://github.com/user-attachments/assets/58f5b8b4-7ce3-451a-aa67-c3908cf14545" />
+
+Meeting book form and availability
+
+<img width="1461" alt="Screenshot 2025-03-27 at 9 36 36 AM" src="https://github.com/user-attachments/assets/a377d76e-5024-417e-a68e-c940be30db00" />
+
+
+Meeting List
+
+<img width="1434" alt="Screenshot 2025-03-27 at 9 36 52 AM" src="https://github.com/user-attachments/assets/3dfdc2db-d899-40b1-85c0-6f11c1702784" />
+
+
+
+
