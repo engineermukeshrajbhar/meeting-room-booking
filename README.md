@@ -16,55 +16,57 @@ A Laravel + VueJS application for booking meeting rooms with subscription plans.
    git clone https://github.com/engineermukeshrajbhar/meeting-room-booking.git
    cd meeting-room-booking
 Install PHP dependencies:
-
-bash
-Copy
+```bash
 composer install
-Install JavaScript dependencies:
+```
+```bash
 
-bash
-Copy
+composer install
+```
+Install JavaScript dependencies:
+```bash
 npm install
+```
 Create a copy of the environment file:
 
-bash
-Copy
+```bash
+
 cp .env.example .env
+```
 Generate application key:
 
-bash
-Copy
+```bash
+
 php artisan key:generate
+```
 Configure your database in .env file:
 
 env
-Copy
+
 DB_DATABASE=meeting_room
 DB_USERNAME=root
 DB_PASSWORD=
 Run migrations and seeders:
 
-bash
+```bash
 Copy
 php artisan migrate --seed
+```
 Compile frontend assets:
 
-bash
-Copy
+```bash
+
 npm run dev
+```
 Start the development server:
 
-bash
-Copy
+```bash
+
 php artisan serve
+```
 Access the application at http://localhost:8000
 
-Testing
-Run PHPUnit tests:
 
-bash
-Copy
-php artisan test
 Features
 User authentication with login attempt limitation
 
@@ -76,17 +78,8 @@ Subscription plans for increased booking limits
 
 Booking history with filters
 
-Copy
 
-## 7. Git Guidelines
 
-1. Create a new repository on your preferred Git platform
-2. Add `dev@webol.co.uk` as a collaborator
-3. Follow a feature branch workflow:
-   - `main` branch for production-ready code
-   - Feature branches for development (`feature/login`, `feature/booking`, etc.)
-4. Commit messages should be clear and descriptive
-5. Push all code including migrations and seeders
 
 This solution provides a complete foundation for your meeting room booking system with all the requested features implemented. The system includes authentication with login attempt limitation, meeting room management, booking functionality with availability checks, subscription plans, and booking history.
 
@@ -110,7 +103,5 @@ Meeting book form and availability
 Meeting List
 
 <img width="1434" alt="Screenshot 2025-03-27 at 9 36 52 AM" src="https://github.com/user-attachments/assets/3dfdc2db-d899-40b1-85c0-6f11c1702784" />
-
-
 
 
